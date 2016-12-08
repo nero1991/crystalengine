@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECCBD131ACC24C100939893 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCBD111ACC24C100939893 /* Game.storyboard */; };
+		CECCBD151ACC24C100939893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECCBD141ACC24C100939893 /* Images.xcassets */; };
+		CECCBD181ACC24C100939893 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CECCBD161ACC24C100939893 /* LaunchScreen.xib */; };
+		CECCBD241ACC24C100939893 /* RunAway_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCBD231ACC24C100939893 /* RunAway_Tests.m */; };
+		CECCBD641ACC409500939893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCBD601ACC409500939893 /* AppDelegate.m */; };
+		CECCBD651ACC409500939893 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCBD621ACC409500939893 /* GameViewController.m */; };
+		CECCBD661ACC409500939893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECCBD631ACC409500939893 /* main.m */; };
+		CECCBD8D1ACD3B0B00939893 /* Test.mm in Sources */ = {isa = PBXBuildFile; fileRef = CECCBD8C1ACD3B0B00939893 /* Test.mm */; };
+		CECCBD901ACD3FA000939893 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECCBD8F1ACD3FA000939893 /* OpenGLES.framework */; };
+		CECCBD931ACD425300939893 /* libCrystalEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECCBD321ACC24DD00939893 /* libCrystalEngine.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CECCBD1E1ACC24C100939893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCBCF81ACC24C100939893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECCBCFF1ACC24C100939893;
+			remoteInfo = "RunAway!";
+		};
+		CECCBD311ACC24DD00939893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECCBD2D1ACC24DD00939893 /* CrystalEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CECCBCEE1ACC241000939893;
+			remoteInfo = CrystalEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CECCBD001ACC24C100939893 /* RunAway!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunAway!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECCBD041ACC24C100939893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCBD121ACC24C100939893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Game.storyboard; sourceTree = "<group>"; };
+		CECCBD141ACC24C100939893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CECCBD171ACC24C100939893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CECCBD1D1ACC24C100939893 /* RunAway!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunAway!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECCBD221ACC24C100939893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCBD231ACC24C100939893 /* RunAway_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunAway_Tests.m; sourceTree = "<group>"; };
+		CECCBD2D1ACC24DD00939893 /* CrystalEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CrystalEngine.xcodeproj; path = ../CrystalEngine/CrystalEngine.xcodeproj; sourceTree = "<group>"; };
+		CECCBD5F1ACC409500939893 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECCBD601ACC409500939893 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECCBD611ACC409500939893 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CECCBD621ACC409500939893 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CECCBD631ACC409500939893 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECCBD8B1ACD3B0B00939893 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		CECCBD8C1ACD3B0B00939893 /* Test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Test.mm; sourceTree = "<group>"; };
+		CECCBD8F1ACD3FA000939893 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECCBCFD1ACC24C100939893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECCBD931ACD425300939893 /* libCrystalEngine.a in Frameworks */,
+				CECCBD901ACD3FA000939893 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECCBD1A1ACC24C100939893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECCBCF71ACC24C100939893 = {
+			isa = PBXGroup;
+			children = (
+				CECCBD331ACC24E700939893 /* CrystalEngine */,
+				CECCBD021ACC24C100939893 /* RunAway! */,
+				CECCBD201ACC24C100939893 /* RunAway!Tests */,
+				CECCBD011ACC24C100939893 /* Products */,
+				CECCBD351ACC258200939893 /* Framworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CECCBD011ACC24C100939893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD001ACC24C100939893 /* RunAway!.app */,
+				CECCBD1D1ACC24C100939893 /* RunAway!Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECCBD021ACC24C100939893 /* RunAway! */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD671ACC40A100939893 /* Resources */,
+				CECCBD5E1ACC403A00939893 /* Base */,
+			);
+			path = "RunAway!";
+			sourceTree = "<group>";
+		};
+		CECCBD031ACC24C100939893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD041ACC24C100939893 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECCBD201ACC24C100939893 /* RunAway!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD231ACC24C100939893 /* RunAway_Tests.m */,
+				CECCBD211ACC24C100939893 /* Supporting Files */,
+			);
+			path = "RunAway!Tests";
+			sourceTree = "<group>";
+		};
+		CECCBD211ACC24C100939893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD221ACC24C100939893 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CECCBD2E1ACC24DD00939893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD321ACC24DD00939893 /* libCrystalEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECCBD331ACC24E700939893 /* CrystalEngine */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD2D1ACC24DD00939893 /* CrystalEngine.xcodeproj */,
+			);
+			name = CrystalEngine;
+			sourceTree = "<group>";
+		};
+		CECCBD351ACC258200939893 /* Framworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD8F1ACD3FA000939893 /* OpenGLES.framework */,
+			);
+			name = Framworks;
+			sourceTree = "<group>";
+		};
+		CECCBD5E1ACC403A00939893 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD5F1ACC409500939893 /* AppDelegate.h */,
+				CECCBD601ACC409500939893 /* AppDelegate.m */,
+				CECCBD611ACC409500939893 /* GameViewController.h */,
+				CECCBD621ACC409500939893 /* GameViewController.m */,
+				CECCBD631ACC409500939893 /* main.m */,
+				CECCBD8B1ACD3B0B00939893 /* Test.h */,
+				CECCBD8C1ACD3B0B00939893 /* Test.mm */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CECCBD671ACC40A100939893 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CECCBD111ACC24C100939893 /* Game.storyboard */,
+				CECCBD141ACC24C100939893 /* Images.xcassets */,
+				CECCBD161ACC24C100939893 /* LaunchScreen.xib */,
+				CECCBD031ACC24C100939893 /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECCBCFF1ACC24C100939893 /* RunAway! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECCBD271ACC24C100939893 /* Build configuration list for PBXNativeTarget "RunAway!" */;
+			buildPhases = (
+				CECCBCFC1ACC24C100939893 /* Sources */,
+				CECCBCFD1ACC24C100939893 /* Frameworks */,
+				CECCBCFE1ACC24C100939893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RunAway!";
+			productName = "RunAway!";
+			productReference = CECCBD001ACC24C100939893 /* RunAway!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CECCBD1C1ACC24C100939893 /* RunAway!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECCBD2A1ACC24C100939893 /* Build configuration list for PBXNativeTarget "RunAway!Tests" */;
+			buildPhases = (
+				CECCBD191ACC24C100939893 /* Sources */,
+				CECCBD1A1ACC24C100939893 /* Frameworks */,
+				CECCBD1B1ACC24C100939893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CECCBD1F1ACC24C100939893 /* PBXTargetDependency */,
+			);
+			name = "RunAway!Tests";
+			productName = "RunAway!Tests";
+			productReference = CECCBD1D1ACC24C100939893 /* RunAway!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECCBCF81ACC24C100939893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Nero;
+				TargetAttributes = {
+					CECCBCFF1ACC24C100939893 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CECCBD1C1ACC24C100939893 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CECCBCFF1ACC24C100939893;
+					};
+				};
+			};
+			buildConfigurationList = CECCBCFB1ACC24C100939893 /* Build configuration list for PBXProject "RunAway!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECCBCF71ACC24C100939893;
+			productRefGroup = CECCBD011ACC24C100939893 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CECCBD2E1ACC24DD00939893 /* Products */;
+					ProjectRef = CECCBD2D1ACC24DD00939893 /* CrystalEngine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CECCBCFF1ACC24C100939893 /* RunAway! */,
+				CECCBD1C1ACC24C100939893 /* RunAway!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CECCBD321ACC24DD00939893 /* libCrystalEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCrystalEngine.a;
+			remoteRef = CECCBD311ACC24DD00939893 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECCBCFE1ACC24C100939893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECCBD181ACC24C100939893 /* LaunchScreen.xib in Resources */,
+				CECCBD131ACC24C100939893 /* Game.storyboard in Resources */,
+				CECCBD151ACC24C100939893 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECCBD1B1ACC24C100939893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECCBCFC1ACC24C100939893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECCBD641ACC409500939893 /* AppDelegate.m in Sources */,
+				CECCBD8D1ACD3B0B00939893 /* Test.mm in Sources */,
+				CECCBD651ACC409500939893 /* GameViewController.m in Sources */,
+				CECCBD661ACC409500939893 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECCBD191ACC24C100939893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECCBD241ACC24C100939893 /* RunAway_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CECCBD1F1ACC24C100939893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECCBCFF1ACC24C100939893 /* RunAway! */;
+			targetProxy = CECCBD1E1ACC24C100939893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CECCBD111ACC24C100939893 /* Game.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECCBD121ACC24C100939893 /* Base */,
+			);
+			name = Game.storyboard;
+			sourceTree = "<group>";
+		};
+		CECCBD161ACC24C100939893 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECCBD171ACC24C100939893 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECCBD251ACC24C100939893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../CrystalEngine/Classes/Crystal";
+			};
+			name = Debug;
+		};
+		CECCBD261ACC24C100939893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../CrystalEngine/Classes/Crystal";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECCBD281ACC24C100939893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "RunAway!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CECCBD291ACC24C100939893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "RunAway!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CECCBD2B1ACC24C100939893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RunAway!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunAway!.app/RunAway!";
+			};
+			name = Debug;
+		};
+		CECCBD2C1ACC24C100939893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RunAway!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RunAway!.app/RunAway!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECCBCFB1ACC24C100939893 /* Build configuration list for PBXProject "RunAway!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECCBD251ACC24C100939893 /* Debug */,
+				CECCBD261ACC24C100939893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECCBD271ACC24C100939893 /* Build configuration list for PBXNativeTarget "RunAway!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECCBD281ACC24C100939893 /* Debug */,
+				CECCBD291ACC24C100939893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECCBD2A1ACC24C100939893 /* Build configuration list for PBXNativeTarget "RunAway!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECCBD2B1ACC24C100939893 /* Debug */,
+				CECCBD2C1ACC24C100939893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECCBCF81ACC24C100939893 /* Project object */;
+}
